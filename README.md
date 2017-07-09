@@ -1,6 +1,6 @@
 # tinderForYourPhotos
 This is an indusrtial project from the CS faculty in the Technion, Israel.
-###### Directory Description:
+###### Directories Description:
 - App: the android application
 - Guides: developer and general guides
 - Presentations: the first/mid/final presentations
