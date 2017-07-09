@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Industrial Project - Tinder For Your Photos</title>
+<!--
+
+Template 2080 Minimax
+
+http://www.tooplate.com/view/2080-minimax
+
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+	
+<!-- navigation -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#home" class="navbar-brand smoothScroll">Shutterfly</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">Home</a></li>
+				<li><a href="#developers" class="smoothScroll">Developers</a></li>
+				<li><a href="#project" class="smoothScroll">Project</a></li>
+				<li><a href="#gallery" class="smoothScroll">Gallery</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>		
+
+<!-- home section -->
+<div id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-6">
+				<h2>Industrial Project</h2>
+				<h1><strong>Tinder For Your Photos</strong></h1>
+				<h3>Spring '17 - Technion</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Developers section -->
+<div id="developers">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>Developers</h2>
+			</div>
+			<div class="col-md-3 col-sm-8">
+				<img src="images/adi_copy.jpg" class="img-responsive" alt="team img">
+				<h3>Adi Schwartz</h3>
+				<h5>Student - Technion</h5>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<img src="images/team1.jpg" class="img-responsive" alt="team img">
+				<h3>Tal Ariel</h3>
+				<h5>Student - Technion</h5>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<img src="images/team1.jpg" class="img-responsive" alt="team img">
+				<h3>Roman Sandler</h3>
+				<h5>Instructor</h5>
+			</div>
+		</div>
+	</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- about section -->
+<div id="project">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-sm-12">
+				<h2>Project</h2>
+			</div>
+			<!--<div class="col-md-6 col-sm-6">
+				<img src="images/android.jpg" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<img src="images/ml.jpg" class="img-responsive" alt="about img">
+			</div>-->
+			<div class="col-md-15 col-sm-12">
+				<h3>About the project</h3>
+				<p>The project was done by Adi Schwartz And Tal Ariel with joint work with Roman Sandler.</p>
+				<h4>Project Discription</h4>
+					<p><a href="https://www.shutterfly.com/">Shutterfly </a>is a large company based in the US. It provides unlimited photo storage
+						and their products includes postcards, albums and more.
+						Tinder app is famous for its "swipe" feature, allowing for fast filtering of
+						photo series. In this project students will implement a Tinder-like interface for fast like/dislike
+						selection of single images or image collages.
+						A possible extension of this project may be learning user's taste in photos and photo products;
+						which is important for Shutterfly to simplify and enrich the photo product creation process. The
+						desired result is learning the "liked" photos parameters, and generates collages adjusted to the
+						learned user preferences.
+					</p>
+				<h4>The Goal</h4>
+					<p>The Goal is to develop an end-to-end mobile app and implementing a Tinder-like
+						interface for fast like/dislike selection of single images or image collages.
+					</p>
+				<h4>Achievments</h4>
+					<h5>Android App</h5>
+						<p>We implemented a Tinder-like app, designed as a Shutterfly app (as you can see in the Gallery section).
+						</p>
+					<h5>HTTP Server</h5>
+						<p>We used <a href="https://httpd.apache.org/">Apache server</a> to handle all the requests made by the app.
+							The server handle the requests, operate on the data (which is stored in a <a href="https://www.mysql.com/">MySQL</a> database) 
+							and send a matchig response.
+						</p>
+					<h5>Machine Learning</h5>
+						<p> - In order to learn the user's taste we implemented an unsupervized <a href="https://www.wikiwand.com/en/Naive_Bayes_classifier">Naive Bayes</a> learning model.
+							<br> - The user's actions labeled the photos.  
+							<br> - By using the knowledge we got from the user, we were able to choose all the best photos.
+						</p>
+				<h4>Tools &amp; Enviroment</h4>
+					<p> - The app was developed in Android Studio and implemented in Java.
+						<br> - The server side was developed fully by us and written in PHP and Python.
+						<br> - We stored all the data in a MySQL database
+						<br> - An external library for the tinder-like interface:      <a href="https://github.com/janishar/PlaceHolderView">PlaceHolderView by Janisher Ali</a>
+					</p>			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- portfolio section -->
+<div id="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 col-sm-12">
+				<h2>Gallery</h2>
+			</div>
+			<div class="col-md-12 col-sm-12">
+				<!-- ISO section -->
+				<div class="iso-section">
+               		<div class="iso-box-section">
+               			<div class="iso-box-wrapper col4-iso-box">
+
+               				<div class="iso-box col-md-3 All Screens Gallery Screen col-sm-6 col-xs-12">
+               				 	<a href="images/screen1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen1.jpg" alt="main screen"></a>
+               				 </div>
+
+               				 <div class="iso-box html wordpress mobile col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen2.jpg" alt="swipe screen"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen3.jpg" alt="store screen"></a>
+               				 </div>
+
+               				 <div class="iso-box html mobile col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen4.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen5.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html photoshop col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen6.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box photoshop col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen7.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen7.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-md-3 col-sm-6 col-xs-12">
+               				 	<a href="images/screen8.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/screen8.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               			</div>
+               		</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+	
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+
+
+<!-- contact section -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 col-sm-12">
+				<h2>Contact us</h2>
+			</div>
+			<div class="col-md-9 col-sm-12">
+				<p><b>Adi Schwartz </b> <span>myemail@company.com</span></p>
+				<p><b>Tal Ariel </b> <span>myemail@company.com</span></p>
+				<p><b>Roman Sandler </b> <span>myemail@company.com</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2017 <a href="https://www.shutterfly.com/">Shutterfly inc.</a> 
+                
+                - Design: <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scrolltop section -->
+<a href="#top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
