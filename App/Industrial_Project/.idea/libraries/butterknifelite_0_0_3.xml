@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="butterknifelite-0.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ce61831a2068372d30c05763387f2491c80989ff/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ce61831a2068372d30c05763387f2491c80989ff/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mindorks/butterknifelite/0.0.3/678ce782d15f5cc4bdf5236f260368cd63407513/butterknifelite-0.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/home_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/home_selector" />
+
+            <ImageButton
+                android:id="@+id/startButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="272dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/start" />
+
+            <ImageButton
+                android:id="@+id/resetButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="421dp">
+
+            <com.mindorks.placeholderview.PlaceHolderView
+                android:id="@+id/galleryView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:scrollbars="vertical" />
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="268dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginTop="333dp"
+                android:layout_marginBottom="32dp"
+                android:elevation="5dp"
+                android:src="@drawable/home_fab" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:color/white"
+            android:src="@drawable/albums" />
+
+    </LinearLayout>
+
+    <include layout="@layout/start_dialogue"
+        android:id="@+id/startDialogue"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/OKStartButton"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="243dp"
+        android:layout_marginTop="417dp"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/CancelStartButton"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="417dp"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+</android.support.design.widget.CoordinatorLayout>

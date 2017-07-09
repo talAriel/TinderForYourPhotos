@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\7b117e4155a72f9e71044cca305b94557e9d6f5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_858c86222c51f1c254bf75136a08f44ed94b13b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_aafee932cb974b73e9d1bd47536a3a667d81f49a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\current_semester\Industrial Project\App\Industrial_Project\placeholderview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e0e1e92697725cceba40161bcc5c8abf721ec16">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_945052b305361ba99d3f8c72a0b063a12c9472bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\851a54afe7bdf9ce1509b0dce862dc1f290ab004\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_c0a91e650f6a29d19b972fc7ebacad6817eed49c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\ad55afe0c61d9fad531f0e55aed6ac5ecb6c944a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_144646a194bf3b1b7c2c16e74f35fecf62af91cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\gson-2.7_69a2a28d3683dd35c90be603b850111cb88d9482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\okio-1.13.0_c5b120a590cbfa4df6a6c805350de691d9dd9941.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\c2cdaf1a524b8c67fe2168adfe1c0c4f1428f179\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_09770f57bc229d74178c7824505793d0359d7846.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\ce61831a2068372d30c05763387f2491c80989ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3b79cad4f69424a2324c2f359396325d557fbe8">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_70f00b9f030338bd9f7585b9c3c1c247e25bd661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\7e8e4a0e21b46205a5ed0478ff7ded47bb29b73a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_d9d65c9269f7843496033b195d7b451578bb5a86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\9fa831db2a95c97cd0220810e3a6a3a3d0096858\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_012d1273195b94062f4272941348b9402bdd530a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\927fe7d13cbe05a0226d281612c2c0e331fc69c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_610375e269b49c58304ecbee3f39757fac4503df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_838f51f71a3b1504ac6b80f64bc897047f63c235.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1e3cf78382555bbddeb4dc0e866727a3c098907a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\8be5400e8c31caaa8b2f57b2a309667bcab06886\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_f2d170228f64a8e86cd7c7895aceaffd8dfc9361.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\354f25f8f706b9b00366c94ca98a7b9a4831b34c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_2bd5f9b81e49d6214c32e00d14bd5a1e4b9e81b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\0b1fca8c3e55fc681d88fa4d5ca05cbd6bdf487d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_acde8809a63c22231dc7075e394ab75dd61d4aaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\bfc2883502fc23a99a76a04476661753a63b63a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_5c2c46c9421ecafe2d1aeb17ad9212e9f0abe9d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_226ce5b0e6d260af92401a637b1a6f80daea354d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\120f27a4e9db8a455ee20a5a9c5360803f65bd43\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_d69ec78a61f48d9302b26bfb70d603088a227a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\30693414a9f68dea8e1d9d8318b347d6c6ae3b15\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_e2b167c962703fdd306e267d3705f224bae8370c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tal\.android\build-cache\a8fa42d9492184142db5daf9dfc4e70db9701a9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\current_semester\Industrial Project\App\Industrial_Project\app\build\intermediates\pre-dexed\debug\classes_a37c6e679935bbf3dc7018d4e11fecbf7df0ce7c.jar" />
+    </item>
+
+</items>

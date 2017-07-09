@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/activity_main"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="421dp"
+            android:layout_marginTop="100dp">
+
+            <com.mindorks.placeholderview.PlaceHolderView
+                android:id="@+id/backgroundGallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:scrollbars="vertical" />
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="268dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginTop="333dp"
+                android:layout_marginBottom="32dp"
+                android:elevation="5dp"
+                android:src="@drawable/home_fab" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#75000000"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+    <com.mindorks.placeholderview.SwipePlaceHolderView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_marginTop="64dp"
+        android:background="#75000000">
+
+    </com.mindorks.placeholderview.SwipePlaceHolderView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="#75000000"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ignoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ignore" />
+
+        <ImageButton
+            android:id="@+id/trashButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/trash" />
+
+        <ImageButton
+            android:id="@+id/likeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/like" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="top"
+        android:background="#75000000"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginRight="148dp"
+            android:background="@drawable/undo"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/exitSwipeButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="322dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/cancel" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/like_dialogue"
+        android:id="@+id/likeDialogue"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/ignore_dialogue"
+        android:id="@+id/ignoreDialogue"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/delete_dialogue"
+        android:id="@+id/deleteDialogue"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/OKSwipeButton"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="243dp"
+        android:layout_marginTop="296dp"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/CancelSwipeButton"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="296dp"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+</FrameLayout>
